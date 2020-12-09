@@ -12,7 +12,7 @@ Complete assembly can be divided in 2 parts;
 1.	  Electronic assembly unit
 2.	 Electronic processing unit - This part is responsible for processing the commands (input) and provides commands to the output devices (1st part).
 
-![Components](doc/diagrams/Components.jpg)
+![Components](./Doc/Diagrams/Components.jpg)
 
 ## Technical Details-
 Whole assembly has 2 technical divisions;

@@ -5,14 +5,14 @@ The Multitask end effector is a project developed during the Hardware I Seminar 
 
 ## Concept:-
 The initial idea was to develop end effector which can be multitasking. Finally we decided to use PU foam for additive manufacturing and CNC milling spindle as subtractive manufacturing
-![Concept](doc/diagrams/Concept.jpg) 
+![Concept](./Doc/diagrams/Concept.jpg) 
 
 ## Components:-
 Complete assembly can be divided in 2 parts;
 1.	  Electronic assembly unit
 2.	 Electronic processing unit - This part is responsible for processing the commands (input) and provides commands to the output devices (1st part).
 
-![Components](./Doc/Diagrams/Components.jpg)
+![Components](./Doc/diagrams/Components.jpg)
 
 ## Technical Details-
 Whole assembly has 2 technical divisions;
@@ -20,7 +20,7 @@ Whole assembly has 2 technical divisions;
 2.	Communication assembly
 3.	Robotic control (robotic arm)
 
-![Technical details](doc/diagrams/Technical.jpg)
+![Technical details](./Doc/diagrams/Technical.jpg)
 
 
 [Project Video](https://youtu.be/fueqOXTzpOA)
@@ -44,7 +44,7 @@ Whole assembly has 2 technical divisions;
     11.	Power supply for Arduino
 
 # Schematic: 
-![Schematic Diagram](doc/Schematic/Schematic.jpg)
+![Schematic Diagram](./Doc/Schematic/Schematic.jpg)
 
 
 # Software’s required:–

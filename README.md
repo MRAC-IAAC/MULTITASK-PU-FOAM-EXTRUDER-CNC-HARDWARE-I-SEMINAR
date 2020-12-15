@@ -14,7 +14,7 @@ Complete assembly can be divided in 2 parts;
 
 ![Components](./Doc/diagrams/Components.jpg)
 
-## Technical Details-
+## Technical Details -
 Whole assembly has 2 technical divisions;
 1.	  OUTPUT DEVICES - PU Foam extruder and CNC milling spindle
 2.	Communication assembly

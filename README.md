@@ -5,14 +5,15 @@ The Multitask end effector is a project developed during the Hardware I Seminar 
 
 ## Concept:-
 The initial idea was to develop end effector which can be multitasking. Finally we decided to use PU foam for additive manufacturing and CNC milling spindle as subtractive manufacturing
-![Concept](./Doc/diagrams/Concept.jpg) 
+
+![Concept]( ./Doc/diagrams/Concept.jpg ) 
 
 ## Components:-
 Complete assembly can be divided in 2 parts;
 1.	  Electronic assembly unit
 2.	 Electronic processing unit - This part is responsible for processing the commands (input) and provides commands to the output devices (1st part).
 
-![Components](./Doc/diagrams/Components.jpg)
+![Components]( ./Doc/diagrams/Components.jpg )
 
 ## Technical Details -
 Whole assembly has 2 technical divisions;
@@ -20,7 +21,7 @@ Whole assembly has 2 technical divisions;
 2.	Communication assembly
 3.	Robotic control (robotic arm)
 
-![Technical details](./Doc/diagrams/Technical.jpg)
+![Technical details]( ./Doc/diagrams/Technical.jpg )
 
 
 [Project Video](https://youtu.be/fueqOXTzpOA)
@@ -44,7 +45,7 @@ Whole assembly has 2 technical divisions;
     11.	Power supply for Arduino
 
 # Schematic: 
-![Schematic Diagram](./Doc/Schematic/Schematic.jpg)
+![Schematic]( ./Doc/Schematic/Schematic.jpg )
 
 
 # Software’s required:–
@@ -60,9 +61,9 @@ Whole assembly has 2 technical divisions;
     Once all the setup is finished and you are ready with the grasshopper code. You can use it over the robotic arm. Once you start with the code on robotic arm, the arm will start reading the tool path generated. Once the arm head (end effector tool) reaches the target location, robot will send a command through optocoupler to Arduino to turn on the Foam extruder and the foam extrusion will start. After completion of the required amount of foam when the robot will send extrusion turn off signal to Arduino, foam extrusion will stop. The same process will start for CNC as per the tool path defined. Please note that for this project 2 component quick drying PU foam was used. Depending on the drying time of the PU foam, you can provide delays in the grasshopper code to let the foam dry before milling over it. 
     
 # References: 
-[Refeference link](http://Renaissance Robotics: Novel applications of Multipurpose Robotic Arms spanning Design Fabrication, Utility, and Art by Steven J. Keating, MIT 2010)
+[Refeferencelink](http://Renaissance Robotics: Novel applications of Multipurpose Robotic Arms spanning Design Fabrication, Utility, and Art by Steven J. Keating, MIT 2010)
 
-[Refeference link](http://YHNOVA house Bouygues Bâtiment Grand Ouest, France 2018)
+[Refeferencelink](http://YHNOVA house Bouygues Bâtiment Grand Ouest, France 2018)
 
 MULTITASK END EFFECTOR is a project of IaaC, Institute for Advanced Architecture of Catalonia. developed at **Master in Robotics and Advanced Construction** in 2019-2020 by:
 Students: **Arpan Mathe, Charng Shin Chen**
